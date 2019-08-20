@@ -1,4 +1,4 @@
-const normalizeClassName = classSelector => classSelector.replace('.', '');
+import { normalizeClassName } from 'utils/general';
 
 /**
  * @module ProductsList
@@ -9,10 +9,10 @@ class ProductsList {
    * @param {Object} options - ConditionerJS's merged options
    */
   constructor(element, options) {
-    this._element = element
-    this._options = Object.assign(ProductsList.options, options)
+    this._element = element;
+    this._options = {...ProductsList.options, ...options}
 
-    this.load();
+    this.init();
   }
 
   /**
@@ -21,17 +21,24 @@ class ProductsList {
   static options = {
     navSelector: '.products-list-nav',
     navTitleSelector: '.products-list-nav__title',
+    navListSelector: '.products-list-nav__items',
     navLinksSelector: '.products-list-nav__link',
     navLinksActiveSelector: '.products-list-nav__link--active',
-    contentItemsSelector: '.products-list-content__item',
+    contentItemsSelector: '.products-list-content__item'
+  }
+
+  _state = {
     activeLink: 1
   }
 
   _addEventListeners() {
-    const { navTitle, navLinks } = this._elements;
+    const { navTitle, navList } = this._elements;
 
     navTitle.addEventListener('click', this._toggleNavigation.bind(this));
-    navLinks.map(item => item.addEventListener('click', this._onSelectedProduct.bind(this)));
+
+    navList.addEventListener('click', evt => {
+      if(evt.target.getAttribute('href')) this._onSelectedProduct(evt);
+    });
   }
 
   _toggleNavigation() {
@@ -42,7 +49,6 @@ class ProductsList {
   }
 
   _onSelectedProduct(evt) {
-    evt.preventDefault();
     const selectedProduct = evt.target;
     const selectedProductId = selectedProduct.getAttribute('data-nav-item-id');
 
@@ -51,10 +57,13 @@ class ProductsList {
     this._setNavTitle();
     this._toggleContent();
     this._toggleNavigation();
+
+    evt.preventDefault();
   }
 
   _setNavActiveLink() {
-    const { navLinksSelector, activeLink } = this._options;
+    const { navLinksSelector } = this._options;
+    const { activeLink } = this._state;
     const navLinkActiveEl = this._element.querySelector(`${navLinksSelector}--active`);
     const activeClassSelector = `${normalizeClassName(navLinksSelector)}--active`;
     const navItemSelected = this._element.querySelector(`[data-nav-item-id="${activeLink}"]`);
@@ -64,11 +73,11 @@ class ProductsList {
   }  
 
   _setActiveLink(productId) {
-    this._options.activeLink = productId;
+    this._state.activeLink = productId;
   }
 
   _setNavTitle() {
-    const { activeLink } = this._options;
+    const { activeLink } = this._state;
     const { navTitle } = this._elements;
     const navItemSelected = this._element.querySelector(`[data-nav-item-id="${activeLink}"]`);
 
@@ -76,7 +85,7 @@ class ProductsList {
   }
 
   _toggleContent() {
-    const { activeLink } = this._options;
+    const { activeLink } = this._state;
     const { contentItems } = this._elements;
     const contentItemSelected = this._element.querySelector(`[data-content-id="${activeLink}"]`);
 
@@ -88,20 +97,28 @@ class ProductsList {
     this._elements = {
       nav: this._element.querySelector(this._options.navSelector),
       navTitle: this._element.querySelector(this._options.navTitleSelector),
+      navList: this._element.querySelector(this._options.navListSelector),
       navLinks: [...this._element.querySelectorAll(this._options.navLinksSelector)],
       contentItems: [...this._element.querySelectorAll(this._options.contentItemsSelector)]
     }
   }
 
-  /**
-   * Construct module
-   */
-  load() {
-    this._cacheElements();
-    this._addEventListeners();
+  _setInitialValues() {
+    const { defaultActive } = this._options;
+    
+    this._setActiveLink(defaultActive);
     this._setNavActiveLink();
     this._setNavTitle();
     this._toggleContent();
+  }
+
+  /**
+   * Construct module
+   */
+  init() {
+    this._cacheElements();
+    this._addEventListeners();
+    this._setInitialValues();
   }
 }
 

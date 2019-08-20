@@ -5,10 +5,11 @@
 @import '../../../node_modules/normalize-scss/sass/normalize/import-now';
 
 // Common
+@import 'common/reset';
+@import 'common/variables';
 @import 'common/colors';
 @import 'common/typography';
 @import 'common/grid';
-@import 'common/reset';
 
 // Modules
 @import '../../components/nav/nav';
