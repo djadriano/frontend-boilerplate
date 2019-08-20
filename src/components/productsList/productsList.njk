@@ -1,0 +1,20 @@
+<div class="products-list" data-module="productsList/ProductsList">
+  <nav class="products-list-nav">
+    <h2 class="products-list-nav__title" tabindex="0" role="button" aria-hidden="true"></h2>
+    <ul class="products-list-nav__items list-reset">
+      {%- for item in items -%}
+        <li>
+          <a href="#{{item.title}}" data-nav-item-id="{{loop.index}}" class="products-list-nav__link">{{item.title}}</a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+  <ul class="products-list-content list-reset">
+    {%- for item in items -%}
+      <li class="products-list-content__item" id="{{item.title}}" data-content-id="{{loop.index}}">
+        <h2>{{ item.content.title }}</h2>
+        <p>{{ item.content.description }}</p>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
