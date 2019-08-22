@@ -15,6 +15,10 @@ class ProductsList {
     this.init();
   }
 
+  _state = {
+    activeProduct: 1
+  }
+
   /**
    * Base options
    */
@@ -25,10 +29,6 @@ class ProductsList {
     navLinksSelector: '.products-list-nav__link',
     navLinksActiveSelector: '.products-list-nav__link--active',
     contentItemsSelector: '.products-list-content__item'
-  }
-
-  _state = {
-    activeLink: 1
   }
 
   _addEventListeners() {
@@ -52,8 +52,8 @@ class ProductsList {
     const selectedProduct = evt.target;
     const selectedProductId = selectedProduct.getAttribute('data-nav-item-id');
 
-    this._setActiveLink(selectedProductId);
-    this._setNavActiveLink();
+    this._setActiveProduct(selectedProductId);
+    this._toggleNavActive();
     this._setNavTitle();
     this._toggleContent();
     this._toggleNavigation();
@@ -61,36 +61,39 @@ class ProductsList {
     evt.preventDefault();
   }
 
-  _setNavActiveLink() {
+  _toggleNavActive() {
     const { navLinksSelector } = this._options;
-    const { activeLink } = this._state;
+    const { activeProduct } = this._state;
+    const activeSelector = `${navLinksSelector}--active`;
     const navLinkActiveEl = this._element.querySelector(`${navLinksSelector}--active`);
-    const activeClassSelector = `${normalizeClassName(navLinksSelector)}--active`;
-    const navItemSelected = this._element.querySelector(`[data-nav-item-id="${activeLink}"]`);
+    const activeClassSelector = normalizeClassName(activeSelector);
+    const navItemSelected = this._element.querySelector(`[data-nav-item-id="${activeProduct}"]`);
 
     if(navLinkActiveEl) navLinkActiveEl.classList.remove(activeClassSelector);
     navItemSelected.classList.add(activeClassSelector);
   }  
 
-  _setActiveLink(productId) {
-    this._state.activeLink = productId;
+  _setActiveProduct(productId) {
+    this._state.activeProduct = productId;
   }
 
   _setNavTitle() {
-    const { activeLink } = this._state;
+    const { activeProduct } = this._state;
     const { navTitle } = this._elements;
-    const navItemSelected = this._element.querySelector(`[data-nav-item-id="${activeLink}"]`);
+    const navItemSelected = this._element.querySelector(`[data-nav-item-id="${activeProduct}"]`);
 
     navTitle.textContent = navItemSelected.textContent;
   }
 
   _toggleContent() {
-    const { activeLink } = this._state;
+    const { activeProduct } = this._state;
     const { contentItems } = this._elements;
-    const contentItemSelected = this._element.querySelector(`[data-content-id="${activeLink}"]`);
+    const { contentItemsSelector } = this._options;
+    const contentItemActiveSelector = normalizeClassName(`${contentItemsSelector}--active`);
+    const contentItemSelected = this._element.querySelector(`[data-content-id="${activeProduct}"]`);
 
-    contentItems.map(item => item.classList.remove('active'));
-    if(contentItemSelected) contentItemSelected.classList.add('active');
+    contentItems.map(item => item.classList.remove(contentItemActiveSelector));
+    if(contentItemSelected) contentItemSelected.classList.add(contentItemActiveSelector);
   }
 
   _cacheElements() {
@@ -106,8 +109,8 @@ class ProductsList {
   _setInitialValues() {
     const { defaultActive } = this._options;
     
-    this._setActiveLink(defaultActive);
-    this._setNavActiveLink();
+    this._setActiveProduct(defaultActive);
+    this._toggleNavActive();
     this._setNavTitle();
     this._toggleContent();
   }

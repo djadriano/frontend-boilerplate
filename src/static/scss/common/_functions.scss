@@ -1,0 +1,11 @@
+@function spaces($spaces-name) {
+  @return map-get($spaces, $spaces-name);
+}
+
+@function font-size($fs-name) {
+  @return map-get($font-sizes, $fs-name);
+}
+
+@function font-weight($fw-name) {
+  @return map-get($font-weight, $fw-name);
+}

@@ -1,16 +1,7 @@
-$media-tablet: 768px;
-$media-desktop: 1024px;
-$padding-mobile: 20px;
-$padding-desktop: 40px;
-
 .products-list {
   display: flex;
   flex-direction: column;
-  margin: 40px 10px 10px;
-
-  * {
-    box-sizing: border-box;
-  }
+  margin: spaces('l') spaces('xs') spaces('xs');
 
   @media screen and (min-width: $media-desktop) {
     flex-direction: row;
@@ -21,22 +12,22 @@ $padding-desktop: 40px;
   $self: &;
   background: $primary;
   position: relative;
-  padding: $padding-mobile;
+  padding: spaces('s');
   border-radius: $box-border-radius;
 
   @media screen and (min-width: $media-tablet) {
-    padding: $padding-desktop;
+    padding: spaces('l');
   }
 
   @media screen and (min-width: $media-desktop) {
     flex: 1 0 50%;
-    padding: calc(#{$padding-mobile} + 6%) $padding-desktop;
+    padding: calc(#{spaces('s')} + 6%) spaces('l');
   }
   
   &__title {
     color: $secondary;
-    font-size: 16px;
-    font-weight: normal;
+    font-size: font-size('small');
+    font-weight: font-weight('normal');
     margin: 0;
 
     @media screen and (min-width: $media-tablet) {
@@ -51,7 +42,7 @@ $padding-desktop: 40px;
     transform: translateY(100%);
     width: 100%;
     background: $secondary;
-    padding: $padding-mobile;
+    padding: spaces('s');
     display: none;
 
     #{$self}--opened & {
@@ -67,7 +58,7 @@ $padding-desktop: 40px;
     }
 
     li {
-      margin-bottom: 30px;
+      margin-bottom: spaces('m');
 
       &:last-of-type {
         margin-bottom: 0;
@@ -82,7 +73,7 @@ $padding-desktop: 40px;
 
     @media screen and (min-width: $media-tablet) {
       color: $secondary;
-      font-size: 24px;
+      font-size: font-size('big');
     }
 
     &--active {
@@ -103,19 +94,19 @@ $padding-desktop: 40px;
   }
 
   &__item {
-    border-radius: 8px;
+    border-radius: $box-border-radius;
     background: $secondary;
-    padding: $padding-mobile;
+    padding: spaces('s');
     display: none;
     box-shadow: $box-shadow;
     height: 100%;
 
-    &.active {
+    &--active {
       display: block;
     }
 
     @media screen and (min-width: $media-tablet) {
-      padding: $padding-desktop;
+      padding: spaces('l');
     }
   }
 }
