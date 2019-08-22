@@ -1,0 +1,1 @@
+export const normalizeClassName = classSelector => classSelector.replace('.', '');

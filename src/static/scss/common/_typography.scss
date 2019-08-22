@@ -1,4 +1,14 @@
+$font-sizes: (
+  'small': 16px,
+  'medium': 18px,
+  'big': 24px
+);
+
+$font-weight: (
+  'normal': 400
+);
+
 body {
   font-family: Arial, sans-serif;
-  font-size: 18px;
+  font-size: font-size('medium');
 }

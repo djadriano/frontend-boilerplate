@@ -1,0 +1,112 @@
+.products-list {
+  display: flex;
+  flex-direction: column;
+  margin: spaces('l') spaces('xs') spaces('xs');
+
+  @media screen and (min-width: $media-desktop) {
+    flex-direction: row;
+  }
+}
+
+.products-list-nav {
+  $self: &;
+  background: $primary;
+  position: relative;
+  padding: spaces('s');
+  border-radius: $box-border-radius;
+
+  @media screen and (min-width: $media-tablet) {
+    padding: spaces('l');
+  }
+
+  @media screen and (min-width: $media-desktop) {
+    flex: 1 0 50%;
+    padding: calc(#{spaces('s')} + 6%) spaces('l');
+  }
+  
+  &__title {
+    color: $secondary;
+    font-size: font-size('small');
+    font-weight: font-weight('normal');
+    margin: 0;
+
+    @media screen and (min-width: $media-tablet) {
+      display: none;
+    }
+  }
+
+  &__items {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    width: 100%;
+    background: $secondary;
+    padding: spaces('s');
+    display: none;
+
+    #{$self}--opened & {
+      display: block;
+    }
+
+    @media screen and (min-width: $media-tablet) {
+      display: block;
+      position: relative;
+      transform: translateY(0);
+      background: transparent;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: spaces('m');
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__link {
+    color: $dark;
+    text-decoration: none;
+    display: block;
+
+    @media screen and (min-width: $media-tablet) {
+      color: $secondary;
+      font-size: font-size('big');
+    }
+
+    &--active {
+      color: $primary;
+
+      @media screen and (min-width: $media-tablet) {
+        color: $secondary;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.products-list-content {
+  @media screen and (min-width: $media-desktop) {
+    transform: translate(-6%, 10%);
+    flex: 1 0 53%;
+  }
+
+  &__item {
+    border-radius: $box-border-radius;
+    background: $secondary;
+    padding: spaces('s');
+    display: none;
+    box-shadow: $box-shadow;
+    height: 100%;
+
+    &--active {
+      display: block;
+    }
+
+    @media screen and (min-width: $media-tablet) {
+      padding: spaces('l');
+    }
+  }
+}

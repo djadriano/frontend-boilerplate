@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "title": "Reproduction",
+      "content": {
+        "title": "Precision to reproduction",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+      }
+    },
+    {
+      "title": "Cow health",
+      "content": {
+        "title": "Precision to Cow health",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+      }
+    },
+    {
+      "title": "Udder control",
+      "content": {
+        "title": "Precision to Udder control",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+      }
+    },
+    {
+      "title": "Claw control",
+      "content": {
+        "title": "Precision to Claw control",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+      }
+    },
+    {
+      "title": "Feed efficiency",
+      "content": {
+        "title": "Precision to Feed efficiency",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+      }
+    },
+    {
+      "title": "Grazing",
+      "content": {
+        "title": "Precision to Grazing",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+      }
+    }
+  ]
+}
