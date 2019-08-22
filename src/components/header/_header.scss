@@ -1,0 +1,28 @@
+.#{$namespace}-header {
+  z-index: 20;
+  position: relative;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__description {
+    line-height: 1.6;  
+  }
+
+  &__about {
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: var(--grid-margin-mobile);    
+
+    @media screen and (min-width: 768px) {
+      padding: var(--grid-margin-tablet);
+    }
+
+    @media screen and (min-width: 1024px) {
+      padding: var(--grid-margin-desktop);
+    }
+  }
+}
