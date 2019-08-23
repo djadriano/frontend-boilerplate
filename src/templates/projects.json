@@ -15,7 +15,8 @@
         },
         {
           "type": "image",
-          "url": "image-01.jpg"
+          "url": "agora/image-01-desktop.jpg",
+          "alt": ""
         },
         {
           "type": "list",
@@ -31,7 +32,8 @@
         },
         {
           "type": "image",
-          "url": "image-02.jpg"
+          "url": "agora/image-02-desktop.jpg",
+          "alt": ""
         },
         {
           "type": "video",

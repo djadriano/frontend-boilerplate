@@ -1,9 +1,9 @@
 <ul class="akf-list akf-works-list akf-container">
-	{%- for item in projects -%}
+	{% for obj, item in projects %}
 		<li class="akf-work-name">
 			<h3 class="akf-work-name__title fs-huge">
 				<a
-					href="/cases/agora-investimentos"
+					href="{{ item.pathname }}.html"
 					class="akf-link akf-link--works"
 					>{{ item.name }}</a
 				>
@@ -12,5 +12,5 @@
 				{{ item.company }} - <time>{{ item.year }}</time>
 			</p>
 		</li>
-	{%- endfor -%}
+   {% endfor %}
 </ul>

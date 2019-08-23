@@ -1,0 +1,9 @@
+.akf-sticky-bar {
+  background: $color-white;
+  position: sticky;
+  top: 0;
+  padding-bottom: var(--grid-margin-mobile);
+  color: $color-gray-dark;
+  border-bottom: 1px solid $color-gray-light;
+  z-index: 10;
+}

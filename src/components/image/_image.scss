@@ -1,0 +1,8 @@
+.#{$namespace}-case__figure {
+  padding: 5%;
+  border: 1px solid $color-gray-light;
+}
+
+.#{$namespace}-case__figure img {
+  display: block;
+}

@@ -1,0 +1,18 @@
+{% component 'pageTitle' %}
+
+<section class="akf-case akf-container">
+  {% for item in content %}
+    {% if item.type == "text" %}
+      {% component 'text', {text: item.content} %}
+    {% endif %}
+    {% if item.type == "image" %}
+      {% component 'image', {url: item.url, alt: item.alt} %}
+    {% endif %}
+    {% if item.type == "list" %}
+      {% component 'details', {title: item.title, items: item.items} %}
+    {% endif %}
+    {% if item.type == "video" %}
+      {% component 'video', {url: item.url} %}
+    {% endif %}
+  {% endfor %}
+</section>

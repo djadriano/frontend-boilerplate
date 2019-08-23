@@ -9,7 +9,7 @@
 
   {%- block meta %}{% endblock -%}
 
-  {# <link rel="stylesheet" href="/static/css/all.css"> #}
+  <link rel="stylesheet" href="/static/css/all.css">
 
   <script>
     (function (d, w) {
@@ -45,8 +45,8 @@
 </head>
 
 <body>
-  <main class="akf-main">
-    {% component 'header' %}
+  {% component 'header' %}
+  <main class="{{mainClass}}">
     {%- block body %}{% endblock -%}
   </main>
 </body>

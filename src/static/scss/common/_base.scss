@@ -1,0 +1,92 @@
+.#{$namespace}-container {
+  padding: var(--grid-margin-mobile);
+
+  @media screen and (min-width: $mq-tablet) {
+    padding: var(--grid-margin-tablet);
+  }
+
+  @media screen and (min-width: $mq-desktop) {
+    padding: var(--grid-margin-desktop);
+  }
+}
+
+.#{$namespace}-link {
+  color: $color-black;
+}
+
+.#{$namespace}-link:hover {
+  text-decoration: line-through;
+}
+
+.#{$namespace}-link--underline {
+  text-decoration: underline;
+}
+
+.#{$namespace}-link--works:hover {
+  color: $color-gray-dark;
+}
+
+.#{$namespace}-main {
+  height: 100%;
+  position: relative;
+  top: calc(-1 * var(--header-height));
+}
+
+.#{$namespace}-list {
+  list-style: none;
+}
+
+.#{$namespace}-work-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.#{$namespace}-work-name__title {
+  order: 2;
+}
+
+.#{$namespace}-work-name__company {
+  order: 1;
+  margin-top: 0;
+  color: $color-gray-dark;
+  line-height: 1;
+}
+
+.#{$namespace}-case {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.#{$namespace}-case__block {
+  margin: 6vh 0;
+
+  @media screen and (min-width: $mq-tablet) {
+    &--paragraph {
+      padding-left: 5%;
+    }
+  }
+
+  @media screen and (min-width: $mq-desktop) {
+    margin: 10vh 0;
+  }
+}
+
+.color-black {
+  color: $color-black;
+}
+
+.color-white {
+  color: $color-white;
+}
+
+.color-gray {
+  color: $color-gray;
+}
+
+.color-gray-light {
+  color: $color-gray-light;
+}
+
+.color-gray-dark {
+  color: $color-gray-dark;
+}
