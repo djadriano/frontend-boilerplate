@@ -1,0 +1,18 @@
+.#{$namespace}-case {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.#{$namespace}-case__block {
+  margin: 6vh 0;
+
+  @media screen and (min-width: $mq-tablet) {
+    &--paragraph {
+      padding-left: 5%;
+    }
+  }
+
+  @media screen and (min-width: $mq-desktop) {
+    margin: 10vh 0;
+  }
+}

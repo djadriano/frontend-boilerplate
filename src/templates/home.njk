@@ -9,8 +9,7 @@
 {% block body %}
   <section class="akf-container akf-intro">
     <h2 class="akf-intro__title fs-huge">
-      I’m a multidisciplinary developer with more than 16 years of
-      experience, focused on UX, Code and Design
+      {{intro}}
     </h2>
     <span class="akf-intro__indicator fs-small">Scroll down</span>
   </section>
@@ -18,6 +17,6 @@
     <header class="akf-sticky-bar akf-container">
       <h1 class="fs-huge">Works</h1>
     </header>
-    {% component 'list', '/data/projects.json' %}
+    {% component 'list', { items: projects } %}
   </section>
 {% endblock %}

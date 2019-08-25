@@ -1,9 +1,9 @@
 <ul class="akf-list akf-works-list akf-container">
-	{% for obj, item in projects %}
+	{% for item in items %}
 		<li class="akf-work-name">
 			<h3 class="akf-work-name__title fs-huge">
 				<a
-					href="{{ item.pathname }}.html"
+					href="cases/{{ item.permalink }}"
 					class="akf-link akf-link--works"
 					>{{ item.name }}</a
 				>

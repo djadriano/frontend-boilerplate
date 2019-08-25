@@ -1,7 +1,11 @@
-{% component 'pageTitle' %}
+{% component 'pageTitle', {
+  name: data.name,
+  company: data.company,
+  year: data.year
+}%}
 
 <section class="akf-case akf-container">
-  {% for item in content %}
+  {% for item in data.content %}
     {% if item.type == "text" %}
       {% component 'text', {text: item.content} %}
     {% endif %}
