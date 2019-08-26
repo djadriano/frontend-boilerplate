@@ -1,9 +1,13 @@
-.akf-sticky-bar {
+.akf-page-title {
   background: $color-white;
   position: sticky;
   top: 0;
-  padding-bottom: var(--grid-margin-mobile);
+  padding-bottom: $space-small;
   color: $color-gray-dark;
   border-bottom: 1px solid $color-gray-light;
   z-index: 10;
+
+  @media screen and (min-width: $mq-tablet) {
+    padding-bottom: $space-big;
+  }
 }

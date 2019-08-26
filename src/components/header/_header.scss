@@ -1,5 +1,5 @@
 .#{$namespace}-header {
-  z-index: 20;
+  z-index: $z-index-medium;
   position: relative;
 
   &__nav {
@@ -8,21 +8,21 @@
   }
 
   &__description {
-    line-height: 1.6;  
+    line-height: $line-height-medium;
   }
 
   &__about {
     position: fixed;
     right: 0;
     top: 0;
-    padding: var(--grid-margin-mobile);    
+    padding: $space-small;
 
-    @media screen and (min-width: 768px) {
-      padding: var(--grid-margin-tablet);
+    @media screen and (min-width: $mq-tablet) {
+      padding: $space-big;
     }
 
-    @media screen and (min-width: 1024px) {
-      padding: var(--grid-margin-desktop);
+    @media screen and (min-width: $mq-desktop) {
+      padding: $space-big;
     }
   }
 }

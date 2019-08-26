@@ -14,7 +14,17 @@
       },
       {
         "type": "image",
-        "url": "agora/image-01-desktop.jpg"
+        "default": {
+          "src": "agora/image-01-desktop.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "agora/image-01-desktop.jpg",
+            "alt": ""
+          }
+        ]
       },
       {
         "type": "list",
@@ -30,7 +40,17 @@
       },
       {
         "type": "image",
-        "url": "agora/image-02-desktop.jpg"
+        "default": {
+          "src": "agora/image-02-desktop.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "agora/image-02-desktop.jpg",
+            "alt": ""
+          }
+        ]
       },
       {
         "type": "video",

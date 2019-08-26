@@ -2,24 +2,23 @@ $namespace: 'akf';
 $mq-tablet: 768px;
 $mq-desktop: 1024px;
 
+$space-small: 2rem;
+$space-big: 4rem;
+
+$z-index-small: 10;
+$z-index-medium: 20;
+
 // Custom Properties definition
 :root {
   --default-font: "Work Sans", sans-serif;
   --min-viewport: 320;
   --max-viewport: 1280;
   --header-height: auto;
-  --grid-margin-desktop: 4rem;
-  --grid-margin-tablet: 4rem;
-  --grid-margin-mobile: 2rem;
 }
 
 * {
   --min-font-size: 16;
   --max-font-size: 20;
-
-  --grid-columns: var(--grid-columns-mobile);
-  --grid-margin: var(--grid-margin-mobile);
-  --grid-gutter: var(--grid-gutter-mobile);
 
   --viewport-difference: calc(100vw - (var(--min-viewport) * 0.1rem));
   --font-size-difference: calc(var(--max-font-size) - var(--min-font-size));

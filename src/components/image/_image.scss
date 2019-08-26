@@ -1,8 +1,21 @@
-.#{$namespace}-case__figure {
+.#{$namespace}-image {
   padding: 5%;
   border: 1px solid $color-gray-light;
-}
 
-.#{$namespace}-case__figure img {
-  display: block;
+  picture {
+    width: 100%;
+    overflow: hidden;
+
+    img {
+      transition: filter 0.5s 300ms ease-in-out;
+      display: block;
+      width: 100%;
+    }
+
+    &.lazy-initial {
+      img {
+        filter: blur(20px);
+      }
+    }
+  }
 }

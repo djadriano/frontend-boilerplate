@@ -10,7 +10,10 @@
       {% component 'text', {text: item.content} %}
     {% endif %}
     {% if item.type == "image" %}
-      {% component 'image', {url: item.url, alt: item.alt} %}
+      {% component 'image', {
+        responsive: item.sizes,
+        defaultImage: item.default
+      } %}
     {% endif %}
     {% if item.type == "list" %}
       {% component 'details', {title: item.title, items: item.items} %}

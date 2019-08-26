@@ -1,29 +1,27 @@
 .#{$namespace}-container {
-  padding: var(--grid-margin-mobile);
-
-  @media screen and (min-width: $mq-tablet) {
-    padding: var(--grid-margin-tablet);
-  }
+  padding: $space-small;
 
   @media screen and (min-width: $mq-desktop) {
-    padding: var(--grid-margin-desktop);
+    padding: $space-big;
   }
 }
 
 .#{$namespace}-link {
   color: $color-black;
-}
 
-.#{$namespace}-link:hover {
-  text-decoration: line-through;
-}
+  &:hover {
+    text-decoration: line-through;
+  }
 
-.#{$namespace}-link--underline {
-  text-decoration: underline;
-}
+  &--underline {
+    text-decoration: underline;
+  }
 
-.#{$namespace}-link--works:hover {
-  color: $color-gray-dark;
+  &--works {
+    &:hover {
+      color: $color-gray-dark;
+    }
+  }
 }
 
 .#{$namespace}-main {
@@ -39,17 +37,17 @@
 .#{$namespace}-work-name {
   display: flex;
   flex-direction: column;
-}
 
-.#{$namespace}-work-name__title {
-  order: 2;
-}
+  &__title {
+    order: 2;
+  }
 
-.#{$namespace}-work-name__company {
-  order: 1;
-  margin-top: 0;
-  color: $color-gray-dark;
-  line-height: 1;
+  &__company {
+    order: 1;
+    margin-top: 0;
+    color: $color-gray-dark;
+    line-height: $line-height-small;
+  }
 }
 
 .#{$namespace}-color-black {
