@@ -10,19 +10,4 @@
   &__description {
     line-height: $line-height-medium;
   }
-
-  &__about {
-    position: fixed;
-    right: 0;
-    top: 0;
-    padding: $space-small;
-
-    @media screen and (min-width: $mq-tablet) {
-      padding: $space-big;
-    }
-
-    @media screen and (min-width: $mq-desktop) {
-      padding: $space-big;
-    }
-  }
 }

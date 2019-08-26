@@ -15,7 +15,7 @@
 
   &__indicator {
     position: absolute;
-    bottom: var(--grid-margin-mobile);
+    bottom: $space-small;
     left: 0;
     width: 100%;
     text-align: center;
