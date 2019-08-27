@@ -1,9 +1,9 @@
 {
   "data": {
-    "name": "Àgora Investimentos",
+    "name": "Next.me",
     "company": "R/GA",
-    "year": "2019",
-    "pathname": "agora-investimentos",
+    "year": "2017",
+    "pathname": "next-me",
     "content": [
       {
         "type": "text",
@@ -15,13 +15,13 @@
       {
         "type": "image",
         "default": {
-          "src": "agora/image-01-mobile.jpg",
+          "src": "next/image-01-mobile.jpg",
           "alt": ""
         },
         "sizes": [
           {
             "media": "min-width: 1024px",
-            "src": "agora/image-01-desktop.jpg",
+            "src": "next/image-01-desktop.jpg",
             "alt": ""
           }
         ]
@@ -41,13 +41,13 @@
       {
         "type": "image",
         "default": {
-          "src": "agora/image-02-mobile.jpg",
+          "src": "next/image-02-mobile.jpg",
           "alt": ""
         },
         "sizes": [
           {
             "media": "min-width: 1024px",
-            "src": "agora/image-02-desktop.jpg",
+            "src": "next/image-02-desktop.jpg",
             "alt": ""
           }
         ]
@@ -55,13 +55,13 @@
       {
         "type": "image",
         "default": {
-          "src": "agora/image-03-mobile.jpg",
+          "src": "next/image-03-mobile.jpg",
           "alt": ""
         },
         "sizes": [
           {
             "media": "min-width: 1024px",
-            "src": "agora/image-03-desktop.jpg",
+            "src": "next/image-03-desktop.jpg",
             "alt": ""
           }
         ]
@@ -69,13 +69,55 @@
       {
         "type": "image",
         "default": {
-          "src": "agora/image-04-mobile.jpg",
+          "src": "next/image-04-mobile.jpg",
           "alt": ""
         },
         "sizes": [
           {
             "media": "min-width: 1024px",
-            "src": "agora/image-04-desktop.jpg",
+            "src": "next/image-04-desktop.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "default": {
+          "src": "next/image-05-mobile.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "next/image-05-desktop.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "default": {
+          "src": "next/image-06-mobile.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "next/image-06-desktop.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "default": {
+          "src": "next/image-07-mobile.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "next/image-07-desktop.jpg",
             "alt": ""
           }
         ]
@@ -88,10 +130,10 @@
     "meta": {
       "description": "My Personal Portfolio",
       "keywords": "portfolio, website",
-      "title": "AKF - Àgora Investimentos",
+      "title": "AKF - Next.me",
       "url": "http://akf.me",
       "image": "",
-      "site_name": "AKF - Àgora Investimentos",
+      "site_name": "AKF - Next.me",
       "type": "website",
       "theme_color": "#000000"
     }
