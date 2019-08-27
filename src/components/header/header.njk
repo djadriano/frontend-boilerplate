@@ -1,11 +1,20 @@
 <header class="akf-header akf-container" data-module="header/Header">
   <nav class="akf-header__nav">
-    <h1 class="fs-logo">
-      <a href="/" class="akf-color-black">AKF</a>
-    </h1>
+    <div>
+      <h1 class="akf-fs-logo">
+        <a href="/" class="akf-color-black">AKF</a>
+      </h1>
+      <p class="akf-fs-small">
+        Frontend Developer<br />
+        Amsterdam, Netherlands
+      </p>
+    </div>
+    <ul class="akf-header__links akf-list">
+      {% for item in links %}
+        <li class="akf-fs-small">
+          <a href="{{item.url}}" target="_blank" class="akf-link">{{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
   </nav>
-  <p class="description fs-small">
-    Frontend Developer<br />
-    Amsterdam, Netherlands
-  </p>
 </header>

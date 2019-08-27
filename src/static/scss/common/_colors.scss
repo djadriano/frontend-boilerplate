@@ -3,3 +3,23 @@ $color-white: #fff;
 $color-gray: #a6a6a6;
 $color-gray-light: #ececec;
 $color-gray-dark: #7a7a7a;
+
+.#{$namespace}-color-black {
+  color: $color-black;
+}
+
+.#{$namespace}-color-white {
+  color: $color-white;
+}
+
+.#{$namespace}-color-gray {
+  color: $color-gray;
+}
+
+.#{$namespace}-color-gray-light {
+  color: $color-gray-light;
+}
+
+.#{$namespace}-color-gray-dark {
+  color: $color-gray-dark;
+}

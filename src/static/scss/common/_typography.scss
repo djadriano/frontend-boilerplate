@@ -4,6 +4,8 @@ $line-height-small: 1.1;
 $line-height-medium: 1.6;
 $line-height-big: 2;
 
+$fweight-bold: 600;
+
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -12,41 +14,41 @@ body {
   font-size: var(--font-scale);
 }
 
-.fs-small {
+.#{$namespace}-fs-small {
   --min-font-size: 12;
   --max-font-size: 14;
 
   font-size: var(--font-scale);
 }
 
-.fs-medium {
+.#{$namespace}-fs-medium {
   --min-font-size: 20;
   --max-font-size: 30;
 
   font-size: var(--font-scale);
 }
 
-.fs-big {
+.#{$namespace}-fs-big {
   --min-font-size: 34;
   --max-font-size: 44;
 
   font-size: var(--font-scale);
 }
 
-.fs-huge {
+.#{$namespace}-fs-huge {
   --min-font-size: 36;
   --max-font-size: 70;
 
   font-size: var(--font-scale);
-  font-weight: bold;
+  font-weight: $fweight-bold;
   line-height: 1;
 }
 
-.fs-logo {
+.#{$namespace}-fs-logo {
   --min-font-size: 30;
   --max-font-size: 40;
 
   font-size: var(--font-scale);
-  font-weight: 600;
+  font-weight: $fweight-bold;
   line-height: 1;
 }
