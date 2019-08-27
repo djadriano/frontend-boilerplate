@@ -1,4 +1,4 @@
-.akf-intro {
+.#{$namespace}-intro {
   width: 100%;
   height: 100%;
   padding-top: calc(var(--header-height) / 2);
@@ -26,21 +26,7 @@
   }
 }
 
-.akf-works-list {
-  li {
-    margin-bottom: 5vh;
-
-    &:last-of-type {
-      margin-bottom: 0;
-    }
-
-    @media screen and (min-width: $mq-desktop) {
-      margin-bottom: 7vh;
-    }
-  }
-}
-
-.akf-works {
+.#{$namespace}-works {
   &__header {
     @media screen and (min-width: $mq-tablet) {
       padding-bottom: $space-big;

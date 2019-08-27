@@ -1,6 +1,8 @@
 <header class="akf-page-title akf-container akf-work-name">
   <h2 class="akf-work-name__title fs-huge">{{name}}</h2>
-  <p class="akf-work-name__company fs-small">
-    {{company}} - <time>{{year}}</time>
-  </p>
+  {% if company %}
+    <p class="akf-work-name__company fs-small">
+      {{company}}{% if time %} - <time>{{year}}</time>{% endif %}
+    </p>
+  {% endif %}
 </header>

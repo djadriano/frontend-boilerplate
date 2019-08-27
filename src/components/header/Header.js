@@ -16,17 +16,14 @@ class Header {
   /**
    * Base options
    */
-  static options = {
-    headerSelector: '.akf-header'
-  }
+  static options = {}
 
   _addEventListeners() {
-    window.addEventListener('resize', this.setHeaderHeight);
+    window.addEventListener('resize', this._setHeaderHeight.bind(this));
   }
 
   _setHeaderHeight() {
-    const { headerSelector } = this._options;
-    const headerEl = document.querySelector(headerSelector);
+    const headerEl = this._element;
     const root = document.documentElement;
 
     root.style.setProperty(

@@ -3,7 +3,7 @@
 {% extends '../layout/default.njk' %}
 
 {% block meta %}
-  {% component 'head', 'head-home.json' %}
+  {% component 'head', meta %}
 {% endblock %}
 
 {% block body %}
@@ -14,9 +14,7 @@
     <span class="akf-intro__indicator fs-small">Scroll down</span>
   </section>
   <section class="akf-works">
-    <header class="akf-page-title akf-container">
-      <h1 class="fs-huge">Works</h1>
-    </header>
+    {% component 'pageTitle', { name: 'Works' } %}
     {% component 'list', { items: projects } %}
   </section>
 {% endblock %}
