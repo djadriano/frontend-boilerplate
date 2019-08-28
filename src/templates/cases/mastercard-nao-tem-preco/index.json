@@ -1,14 +1,13 @@
 {
   "data": {
-    "name": "Àgora Investimentos",
+    "name": "Mastercard - NaoTemPreco",
     "company": "R/GA",
-    "year": "2013",
+    "year": "2012",
     "content": [
       {
         "type": "text",
         "content": [
-          "Development of the portfolio for Thiago Franco.",
-          "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+          "The MasterCard Brasil - Não Tem Preço is a platform with promotions that are offered to MasterCard card holders. I have had a small participation on the project's structuring the frontend using AngularJS and on the main grid design."
         ]
       },
       {
@@ -29,12 +28,9 @@
         "type": "list",
         "title": "Stack:",
         "items": [
-          "Webpack 4",
-          "React",
-          "React Router",
-          "Sass/CSS Custom Properties",
-          "Workbox for PWA stuffs",
-          "TweenMax for animations"
+          "Angular 1",
+          "Ruby on Rails",
+          "Sass"
         ]
       },
       {

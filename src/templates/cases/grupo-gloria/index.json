@@ -1,87 +1,38 @@
 {
   "data": {
-    "name": "Àgora Investimentos",
+    "name": "Grupo Gloria",
     "company": "R/GA",
     "year": "2017",
     "content": [
       {
         "type": "text",
         "content": [
-          "Development of the portfolio for Thiago Franco.",
-          "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
-        ]
-      },
-      {
-        "type": "image",
-        "default": {
-          "src": "agora/image-01-mobile.jpg",
-          "alt": ""
-        },
-        "sizes": [
-          {
-            "media": "min-width: 1024px",
-            "src": "agora/image-01-desktop.jpg",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "type": "list",
-        "title": "Stack:",
-        "items": [
-          "Webpack 4",
-          "React",
-          "React Router",
-          "Sass/CSS Custom Properties",
-          "Workbox for PWA stuffs",
-          "TweenMax for animations"
-        ]
-      },
-      {
-        "type": "image",
-        "default": {
-          "src": "agora/image-02-mobile.jpg",
-          "alt": ""
-        },
-        "sizes": [
-          {
-            "media": "min-width: 1024px",
-            "src": "agora/image-02-desktop.jpg",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "type": "image",
-        "default": {
-          "src": "agora/image-03-mobile.jpg",
-          "alt": ""
-        },
-        "sizes": [
-          {
-            "media": "min-width: 1024px",
-            "src": "agora/image-03-desktop.jpg",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "type": "image",
-        "default": {
-          "src": "agora/image-04-mobile.jpg",
-          "alt": ""
-        },
-        "sizes": [
-          {
-            "media": "min-width: 1024px",
-            "src": "agora/image-04-desktop.jpg",
-            "alt": ""
-          }
+          "Website developed for a group of communication and technology companies."
         ]
       },
       {
         "type": "video",
-        "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
+        "url": "https://www.youtube.com/embed/wLJsXZhK1W0"
+      },
+      {
+        "type": "list",
+        "title": "The site was developed thinking in responsive (Mobile First) with the follow stack:",
+        "items": [
+          "Webpack",
+          "React",
+          "Redux",
+          "Javascript ES6",
+          "Sass",
+          "Node.js and Express was used to deliver the static website"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/W8A8jel_H5s"
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/X74DmoyMAbA"
       }
     ],
     "meta": {

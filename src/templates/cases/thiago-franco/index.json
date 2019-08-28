@@ -1,7 +1,7 @@
 {
   "data": {
-    "name": "Àgora Investimentos",
-    "company": "R/GA",
+    "name": "Thiago Franco",
+    "company": "Freelancer",
     "year": "2018",
     "content": [
       {
@@ -14,13 +14,13 @@
       {
         "type": "image",
         "default": {
-          "src": "agora/image-01-mobile.jpg",
+          "src": "thiago-franco/image-01-desktop.jpg",
           "alt": ""
         },
         "sizes": [
           {
             "media": "min-width: 1024px",
-            "src": "agora/image-01-desktop.jpg",
+            "src": "thiago-franco/image-01-desktop.jpg",
             "alt": ""
           }
         ]
@@ -40,13 +40,13 @@
       {
         "type": "image",
         "default": {
-          "src": "agora/image-02-mobile.jpg",
+          "src": "thiago-franco/image-02-desktop.jpg",
           "alt": ""
         },
         "sizes": [
           {
             "media": "min-width: 1024px",
-            "src": "agora/image-02-desktop.jpg",
+            "src": "thiago-franco/image-02-desktop.jpg",
             "alt": ""
           }
         ]
@@ -54,34 +54,38 @@
       {
         "type": "image",
         "default": {
-          "src": "agora/image-03-mobile.jpg",
+          "src": "thiago-franco/image-03-desktop.jpg",
           "alt": ""
         },
         "sizes": [
           {
             "media": "min-width: 1024px",
-            "src": "agora/image-03-desktop.jpg",
+            "src": "thiago-franco/image-03-desktop.jpg",
             "alt": ""
           }
         ]
       },
       {
-        "type": "image",
-        "default": {
-          "src": "agora/image-04-mobile.jpg",
-          "alt": ""
-        },
-        "sizes": [
-          {
-            "media": "min-width: 1024px",
-            "src": "agora/image-04-desktop.jpg",
-            "alt": ""
-          }
+        "type": "list",
+        "title": "Good points:",
+        "items": [
+          "Language configuration using JSON Files and React Components",
+          "Chunks split for vendors and project javascript",
+          "Using Workbox to offline support via Service Workers",
+          "Fluid Typography"
         ]
       },
       {
         "type": "video",
-        "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
+        "url": "https://www.youtube.com/embed/Hi-UZs3BsS0"
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/EGeO5KvLxUE"
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/WB4RoBBtch0"
       }
     ],
     "meta": {

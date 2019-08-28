@@ -8,52 +8,10 @@
       "permalink": "agora-investimentos"
     },
     {
-      "name": "Google Creative Sandbox",
-      "company": "R/GA",
-      "year": "2012",
-      "permalink": "google-creative-sandbox"
-    },
-    {
-      "name": "Google Expert",
-      "company": "R/GA",
-      "year": "2014",
-      "permalink": "google-expert"
-    },
-    {
-      "name": "Google Mobile Day",
-      "company": "R/GA",
-      "year": "2015",
-      "permalink": "google-mobile-day"
-    },
-    {
-      "name": "Grupo Gloria",
+      "name": "Thiago Franco",
       "company": "Freelancer",
-      "year": "2017",
-      "permalink": "grupo-gloria"
-    },
-    {
-      "name": "MasterCard Guia Meu Brasil Não Tem Preço",
-      "company": "R/GA",
-      "year": "2013",
-      "permalink": "mastercard-guia"
-    },
-    {
-      "name": "MasterCard Não tem Preço",
-      "company": "R/GA",
-      "year": "2013",
-      "permalink": "mastercard-nao-tem-preco"
-    },
-    {
-      "name": "MasterCard Priceless Surprise",
-      "company": "R/GA",
-      "year": "2015",
-      "permalink": "mastercard-priceless-surprise"
-    },
-    {
-      "name": "Next.me",
-      "company": "R/GA",
-      "year": "2017",
-      "permalink": "next-me"
+      "year": "2018",
+      "permalink": "thiago-franco"
     },
     {
       "name": "Nike HBL China",
@@ -62,10 +20,22 @@
       "permalink": "nike-hbl-china"
     },
     {
-      "name": "Nike Vem Junto",
+      "name": "Year With Uber",
       "company": "R/GA",
-      "year": "2015",
-      "permalink": "nike-vem-junto"
+      "year": "2017",
+      "permalink": "year-with-uber"
+    },
+    {
+      "name": "Grupo Gloria",
+      "company": "Freelancer",
+      "year": "2017",
+      "permalink": "grupo-gloria"
+    },
+    {
+      "name": "Next.me",
+      "company": "R/GA",
+      "year": "2017",
+      "permalink": "next-me"
     },
     {
       "name": "Nike Você Sem Limites",
@@ -74,16 +44,46 @@
       "permalink": "nike-voce-sem-limites"
     },
     {
-      "name": "Thiago Franco",
-      "company": "Freelancer",
-      "year": "2018",
-      "permalink": "thiago-franco"
+      "name": "Nike Vem Junto",
+      "company": "R/GA",
+      "year": "2015",
+      "permalink": "nike-vem-junto"
     },
     {
-      "name": "Year With Uber",
+      "name": "Google Mobile Day",
       "company": "R/GA",
-      "year": "2017",
-      "permalink": "year-with-uber"
+      "year": "2015",
+      "permalink": "google-mobile-day"
+    },
+    {
+      "name": "MasterCard Priceless Surprise",
+      "company": "R/GA",
+      "year": "2015",
+      "permalink": "mastercard-priceless-surprise"
+    },
+    {
+      "name": "MasterCard Não tem Preço",
+      "company": "R/GA",
+      "year": "2013",
+      "permalink": "mastercard-nao-tem-preco"
+    },
+    {
+      "name": "MasterCard Guia Priceless Brasil",
+      "company": "R/GA",
+      "year": "2013",
+      "permalink": "mastercard-guia"
+    },
+    {
+      "name": "Google Expert",
+      "company": "R/GA",
+      "year": "2013",
+      "permalink": "google-expert"
+    },
+    {
+      "name": "Google Creative Sandbox",
+      "company": "R/GA",
+      "year": "2012",
+      "permalink": "google-creative-sandbox"
     }
   ],
   "meta": {

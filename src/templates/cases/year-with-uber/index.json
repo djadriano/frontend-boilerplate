@@ -1,87 +1,37 @@
 {
   "data": {
-    "name": "Àgora Investimentos",
+    "name": "Year with Uber",
     "company": "R/GA",
     "year": "2017",
     "content": [
       {
         "type": "text",
         "content": [
-          "Development of the portfolio for Thiago Franco.",
-          "It was a great opportunity to apply brand new frontend technologies like CSS Grid, Service Worker, CSS Custom Properties, new React Context API and coolest animations usign CSS and TweenMax."
+          "Year with Uber is a story-driven experience with a modular structure that surprise and delight users. Scenes from the experience are informed by your trip data, making no two user’s experiences the same."
         ]
       },
       {
-        "type": "image",
-        "default": {
-          "src": "agora/image-01-mobile.jpg",
-          "alt": ""
-        },
-        "sizes": [
-          {
-            "media": "min-width: 1024px",
-            "src": "agora/image-01-desktop.jpg",
-            "alt": ""
-          }
+        "type": "text",
+        "content": [
+          "My role in this project was to create the internacionalization (i18n) module for website.",
+          "The project use React and I created a High Order Component that read language files based on language of user selected."
         ]
       },
       {
-        "type": "list",
-        "title": "Stack:",
-        "items": [
-          "Webpack 4",
-          "React",
-          "React Router",
-          "Sass/CSS Custom Properties",
-          "Workbox for PWA stuffs",
-          "TweenMax for animations"
+        "type": "text",
+        "content": [
+          "I created a structure that made it easy to update the website texts for 5 different languages: English, Hong Kong, Indian, Thailand and Vietnam."
         ]
       },
       {
-        "type": "image",
-        "default": {
-          "src": "agora/image-02-mobile.jpg",
-          "alt": ""
-        },
-        "sizes": [
-          {
-            "media": "min-width: 1024px",
-            "src": "agora/image-02-desktop.jpg",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "type": "image",
-        "default": {
-          "src": "agora/image-03-mobile.jpg",
-          "alt": ""
-        },
-        "sizes": [
-          {
-            "media": "min-width: 1024px",
-            "src": "agora/image-03-desktop.jpg",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "type": "image",
-        "default": {
-          "src": "agora/image-04-mobile.jpg",
-          "alt": ""
-        },
-        "sizes": [
-          {
-            "media": "min-width: 1024px",
-            "src": "agora/image-04-desktop.jpg",
-            "alt": ""
-          }
+        "type": "text",
+        "content": [
+          "This project was developed for Asian and Oceania countries."
         ]
       },
       {
         "type": "video",
-        "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
+        "url": "https://player.vimeo.com/video/250224988?color=34cdcc&amp;title=0&amp;byline=0&amp;portrait=0"
       }
     ],
     "meta": {
