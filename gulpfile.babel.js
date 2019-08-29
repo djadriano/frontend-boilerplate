@@ -13,7 +13,7 @@ import { docs, docsWatch } from './tasks/docs'
 import { fonts, fontsWatch } from './tasks/fonts'
 import { js, jsLint, jsTest } from './tasks/js'
 import { mock, mockWatch } from './tasks/mock'
-import { copyTemplates } from './tasks/templates'
+import { templates } from './tasks/templates'
 import { fileUpload } from './tasks/upload'
 import { githooks } from './tasks/githooks'
 import { zip } from './tasks/zip'
@@ -40,7 +40,7 @@ function dist(cb) {
 }
 
 function website(cb) {
-  return series(clean, parallel(html, img, css, fonts, js), copyTemplates)(cb)
+  return series(clean, parallel(html, img, css, fonts, js), templates)(cb)
 }
 
 function codequality(cb) {
