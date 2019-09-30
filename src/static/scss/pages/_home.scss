@@ -1,0 +1,35 @@
+.#{$namespace}-intro {
+  width: 100%;
+  height: 100%;
+  padding-top: calc(var(--header-height) / 2);
+  padding-bottom: 0;
+  position: relative;
+  align-items: center;
+  display: flex;
+
+  &__title {
+    color: $color-gray-dark;
+    line-height: $line-height-small;
+    letter-spacing: -0.3vw;
+  }
+
+  &__indicator {
+    position: absolute;
+    bottom: $space-small;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+    @media screen and (min-width: $mq-tablet) {
+      bottom: $space-big;
+    }
+  }
+}
+
+.#{$namespace}-works {
+  &__header {
+    @media screen and (min-width: $mq-tablet) {
+      padding-bottom: $space-big;
+    }
+  }
+}

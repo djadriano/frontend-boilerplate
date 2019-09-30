@@ -1,0 +1,34 @@
+{
+  "data": {
+    "name": "Google Mobile Day",
+    "company": "R/GA",
+    "year": "2015",
+    "content": [
+      {
+        "type": "text",
+        "content": [
+          "Website for the event that was realized in São Paulo by Google.",
+          "Was used in this project: Angular 1, Materialize Framework, Sass and Gulp."
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/WOd18AFrlQg"
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/NfrnOL0IqO8"
+      }
+    ],
+    "meta": {
+      "description": "My Personal Portfolio",
+      "keywords": "portfolio, website",
+      "title": "AKF - Àgora Investimentos",
+      "url": "http://akf.me",
+      "image": "",
+      "site_name": "AKF - Àgora Investimentos",
+      "type": "website",
+      "theme_color": "#000000"
+    }
+  }
+}

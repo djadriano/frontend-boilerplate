@@ -1,0 +1,48 @@
+{
+  "data": {
+    "name": "Year with Uber",
+    "company": "R/GA",
+    "year": "2017",
+    "content": [
+      {
+        "type": "text",
+        "content": [
+          "Year with Uber is a story-driven experience with a modular structure that surprise and delight users. Scenes from the experience are informed by your trip data, making no two user’s experiences the same."
+        ]
+      },
+      {
+        "type": "text",
+        "content": [
+          "My role in this project was to create the internacionalization (i18n) module for website.",
+          "The project use React and I created a High Order Component that read language files based on language of user selected."
+        ]
+      },
+      {
+        "type": "text",
+        "content": [
+          "I created a structure that made it easy to update the website texts for 5 different languages: English, Hong Kong, Indian, Thailand and Vietnam."
+        ]
+      },
+      {
+        "type": "text",
+        "content": [
+          "This project was developed for Asian and Oceania countries."
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://player.vimeo.com/video/250224988?color=34cdcc&amp;title=0&amp;byline=0&amp;portrait=0"
+      }
+    ],
+    "meta": {
+      "description": "My Personal Portfolio",
+      "keywords": "portfolio, website",
+      "title": "AKF - Àgora Investimentos",
+      "url": "http://akf.me",
+      "image": "",
+      "site_name": "AKF - Àgora Investimentos",
+      "type": "website",
+      "theme_color": "#000000"
+    }
+  }
+}

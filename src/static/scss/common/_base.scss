@@ -1,0 +1,51 @@
+.#{$namespace}-container {
+  padding: $space-small;
+
+  @media screen and (min-width: $mq-desktop) {
+    padding: $space-big;
+  }
+}
+
+.#{$namespace}-link {
+  color: $color-black;
+
+  &:hover {
+    text-decoration: line-through;
+  }
+
+  &--underline {
+    text-decoration: underline;
+  }
+
+  &--works {
+    &:hover {
+      color: $color-gray-dark;
+    }
+  }
+}
+
+.#{$namespace}-main {
+  height: 100%;
+  position: relative;
+  top: calc(-1 * var(--header-height));
+}
+
+.#{$namespace}-list {
+  list-style: none;
+}
+
+.#{$namespace}-work-name {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    order: 2;
+  }
+
+  &__company {
+    order: 1;
+    margin-top: 0;
+    color: $color-gray-dark;
+    line-height: $line-height-small;
+  }
+}

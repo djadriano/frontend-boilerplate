@@ -1,0 +1,81 @@
+{
+  "data": {
+    "name": "Nike HBL China",
+    "company": "R/GA",
+    "year": "2018",
+    "content": [
+      {
+        "type": "text",
+        "content": [
+          "Project developed with R/GA Shanghai and R/GA Singapore.",
+          "A campaign website for Nike HBL on WeChat, Weibo, Tmall and Taobao."
+        ]
+      },
+      {
+        "type": "text",
+        "content": [
+          "Called in Chinese marketing terms, a H5, this website lets you create your own journey as a Highschool Basketball (HBL) player through a series of interactive screens and animations. There are more than 700 possible stories depending on the choices you make."
+        ]
+      },
+      {
+        "type": "text",
+        "content": [
+          "HBL is a big deal in China with large arenas and fanatical support. It's pretty similar to the what's going on in the US.",
+          "The great challenges of this project was working with Shanghai and Singapore Team, different timezone compare to Brazil (11 hours +), understanding the China Market and support for main platforms on China (WeChat, Weibo, Tmall and Taobao)."
+        ]
+      },
+      {
+        "type": "text",
+        "content": [
+          "The result was a great project and a productive work relationship with Singapore and Shanghai R/GA Teams."
+        ]
+      },
+      {
+        "type": "list",
+        "title": "The frontend stack for this project was:",
+        "items": [
+          "React/Redux",
+          "Webpack 4",
+          "Sass",
+          "Gsap TweenMax for animations",
+          "Differents Route transitions with React Router, SVG and React Transition Group",
+          "Video control via HTML5 Video Api"
+        ]
+      },
+      {
+        "type": "text",
+        "content": [
+          "I was proud to work with Singapore and Shanghai R/GA Teams developing this project."
+        ]
+      },
+      {
+        "type": "image",
+        "default": {
+          "src": "nike-hbl/image-01-desktop.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "nike-hbl/image-01-desktop.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/DrmjoFxUwb4"
+      }
+    ],
+    "meta": {
+      "description": "My Personal Portfolio",
+      "keywords": "portfolio, website",
+      "title": "AKF - Àgora Investimentos",
+      "url": "http://akf.me",
+      "image": "",
+      "site_name": "AKF - Àgora Investimentos",
+      "type": "website",
+      "theme_color": "#000000"
+    }
+  }
+}

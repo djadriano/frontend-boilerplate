@@ -1,0 +1,49 @@
+{
+  "data": {
+    "name": "Grupo Gloria",
+    "company": "R/GA",
+    "year": "2017",
+    "content": [
+      {
+        "type": "text",
+        "content": [
+          "Website developed for a group of communication and technology companies."
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/wLJsXZhK1W0"
+      },
+      {
+        "type": "list",
+        "title": "The site was developed thinking in responsive (Mobile First) with the follow stack:",
+        "items": [
+          "Webpack",
+          "React",
+          "Redux",
+          "Javascript ES6",
+          "Sass",
+          "Node.js and Express was used to deliver the static website"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/W8A8jel_H5s"
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/X74DmoyMAbA"
+      }
+    ],
+    "meta": {
+      "description": "My Personal Portfolio",
+      "keywords": "portfolio, website",
+      "title": "AKF - Àgora Investimentos",
+      "url": "http://akf.me",
+      "image": "",
+      "site_name": "AKF - Àgora Investimentos",
+      "type": "website",
+      "theme_color": "#000000"
+    }
+  }
+}

@@ -1,4 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap");
+
+$line-height-small: 1.1;
+$line-height-medium: 1.6;
+$line-height-big: 2;
+
+$fweight-bold: 600;
+
 body {
-  font-family: Arial, sans-serif;
-  font-size: 18px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: auto;
+  font-family: var(--default-font);
+  font-size: var(--font-scale);
+}
+
+.#{$namespace}-fs-small {
+  --min-font-size: 12;
+  --max-font-size: 14;
+
+  font-size: var(--font-scale);
+}
+
+.#{$namespace}-fs-medium {
+  --min-font-size: 20;
+  --max-font-size: 30;
+
+  font-size: var(--font-scale);
+}
+
+.#{$namespace}-fs-big {
+  --min-font-size: 34;
+  --max-font-size: 44;
+
+  font-size: var(--font-scale);
+}
+
+.#{$namespace}-fs-huge {
+  --min-font-size: 36;
+  --max-font-size: 70;
+
+  font-size: var(--font-scale);
+  font-weight: $fweight-bold;
+  line-height: 1;
+}
+
+.#{$namespace}-fs-logo {
+  --min-font-size: 30;
+  --max-font-size: 40;
+
+  font-size: var(--font-scale);
+  font-weight: $fweight-bold;
+  line-height: 1;
 }

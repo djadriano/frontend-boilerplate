@@ -1,0 +1,9 @@
+{% extends '../layout/default.njk' %}
+
+{% block meta %}
+  {% component 'head', data.meta %}
+{% endblock %}
+
+{% block body %}
+  {% component 'projectDetail', { data: data } %}
+{% endblock %}

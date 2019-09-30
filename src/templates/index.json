@@ -1,0 +1,99 @@
+{
+  "intro": "I’m a multidisciplinary developer with more than 16 years of experience, focused on UX, Code and Design",
+  "projects": [
+    {
+      "name": "Àgora Investimentos",
+      "company": "R/GA",
+      "year": "2019",
+      "permalink": "agora-investimentos"
+    },
+    {
+      "name": "Thiago Franco",
+      "company": "Freelancer",
+      "year": "2018",
+      "permalink": "thiago-franco"
+    },
+    {
+      "name": "Nike HBL China",
+      "company": "R/GA",
+      "year": "2018",
+      "permalink": "nike-hbl-china"
+    },
+    {
+      "name": "Year With Uber",
+      "company": "R/GA",
+      "year": "2017",
+      "permalink": "year-with-uber"
+    },
+    {
+      "name": "Grupo Gloria",
+      "company": "Freelancer",
+      "year": "2017",
+      "permalink": "grupo-gloria"
+    },
+    {
+      "name": "Next.me",
+      "company": "R/GA",
+      "year": "2017",
+      "permalink": "next-me"
+    },
+    {
+      "name": "Nike Você Sem Limites",
+      "company": "R/GA",
+      "year": "2016",
+      "permalink": "nike-voce-sem-limites"
+    },
+    {
+      "name": "Nike Vem Junto",
+      "company": "R/GA",
+      "year": "2015",
+      "permalink": "nike-vem-junto"
+    },
+    {
+      "name": "Google Mobile Day",
+      "company": "R/GA",
+      "year": "2015",
+      "permalink": "google-mobile-day"
+    },
+    {
+      "name": "MasterCard Priceless Surprise",
+      "company": "R/GA",
+      "year": "2015",
+      "permalink": "mastercard-priceless-surprise"
+    },
+    {
+      "name": "MasterCard Não tem Preço",
+      "company": "R/GA",
+      "year": "2013",
+      "permalink": "mastercard-nao-tem-preco"
+    },
+    {
+      "name": "MasterCard Guia Priceless Brasil",
+      "company": "R/GA",
+      "year": "2013",
+      "permalink": "mastercard-guia"
+    },
+    {
+      "name": "Google Expert",
+      "company": "R/GA",
+      "year": "2013",
+      "permalink": "google-expert"
+    },
+    {
+      "name": "Google Creative Sandbox",
+      "company": "R/GA",
+      "year": "2012",
+      "permalink": "google-creative-sandbox"
+    }
+  ],
+  "meta": {
+    "description": "My Personal Portfolio",
+    "keywords": "portfolio, website",
+    "title": "AKF - Portfolio 2019",
+    "url": "http://akf.me",
+    "image": "",
+    "site_name": "AKF - Portfolio 2019",
+    "type": "website",
+    "theme_color": "#000000"
+  }
+}

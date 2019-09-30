@@ -1,0 +1,34 @@
+.#{$namespace}-header {
+  z-index: $z-index-medium;
+  position: relative;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__links {
+    display: flex;
+    margin: 0;
+    position: fixed;
+    right: $space-small;
+    top: $space-small;
+
+    @media screen and (min-width: $mq-desktop) {
+      right: $space-big;
+      top: $space-big;
+    }
+
+    li {
+      margin-right: $space-x-small;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      @media screen and (min-width: $mq-tablet) {
+        margin-right: $space-small;
+      }
+    }
+  }
+}

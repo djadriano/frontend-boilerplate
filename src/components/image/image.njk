@@ -1,0 +1,10 @@
+<figure class="akf-case__block akf-image" data-module="image/Image">
+  <picture class="lazy lazy-initial">
+    {% for item in responsive %}
+      <source media="({{item.media}})" data-srcset="/static/img/cases/{{item.src}}" alt="{{item.alt}}">
+    {% endfor %}
+    {% if defaultImage %}
+      <img data-src="/static/img/cases/{{defaultImage.src}}" alt="{{defaultImage.alt}}">
+    {% endif %}
+  </picture>
+</figure>

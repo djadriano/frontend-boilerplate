@@ -1,0 +1,158 @@
+{
+  "data": {
+    "name": "Next.me",
+    "company": "R/GA",
+    "year": "2017",
+    "content": [
+      {
+        "type": "text",
+        "content": [
+          "Institutional website for the digital bank Next."
+        ]
+      },
+      {
+        "type": "image",
+        "default": {
+          "src": "next/image-01-mobile.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "next/image-01-desktop.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": "In this project we had great challenges during development such as:",
+        "items": [
+          "Website performance and loading",
+          "Mobile First",
+          "Patterns of development between developers",
+          "Patterns for the design team"
+        ]
+      },
+      {
+        "type": "image",
+        "default": {
+          "src": "next/image-02-mobile.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "next/image-02-desktop.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": "The front-end stack is:",
+        "items": [
+          "React / Redux",
+          "Webpack",
+          "ES6",
+          "Eslint / Prettier and Stylelint for set patterns between developers",
+          "Continuous integration with jenkins and docker",
+          "Eslint running in precommit and jenkins",
+          "Bodymovin library to control SVG and After Effects export animations in front-end"
+        ]
+      },
+      {
+        "type": "image",
+        "default": {
+          "src": "next/image-03-mobile.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "next/image-03-desktop.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "default": {
+          "src": "next/image-04-mobile.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "next/image-04-desktop.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "default": {
+          "src": "next/image-05-mobile.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "next/image-05-desktop.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "default": {
+          "src": "next/image-06-mobile.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "next/image-06-desktop.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "default": {
+          "src": "next/image-07-mobile.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "next/image-07-desktop.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/sgk4y2J4kqs"
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/JL-FAkPIht0"
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/601Wi1z_w1I"
+      }
+    ],
+    "meta": {
+      "description": "My Personal Portfolio",
+      "keywords": "portfolio, website",
+      "title": "AKF - Next.me",
+      "url": "http://akf.me",
+      "image": "",
+      "site_name": "AKF - Next.me",
+      "type": "website",
+      "theme_color": "#000000"
+    }
+  }
+}

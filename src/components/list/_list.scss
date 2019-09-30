@@ -1,0 +1,13 @@
+.#{$namespace}-works-list {
+  li {
+    margin-bottom: 5vh;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    @media screen and (min-width: $mq-desktop) {
+      margin-bottom: 7vh;
+    }
+  }
+}

@@ -2,12 +2,23 @@
 @import 'util/position';
 
 // Vendor
-@import '../../../node_modules/normalize-scss/sass/normalize/import-now';
+// @import '../../../node_modules/normalize-scss/sass/normalize/import-now';
 
 // Common
+@import 'common/reset';
+@import 'common/variables';
 @import 'common/colors';
 @import 'common/typography';
 @import 'common/grid';
+@import 'common/base';
 
 // Modules
-@import '../../components/nav/nav';
+@import '../../components/header/header';
+@import '../../components/image/image';
+@import '../../components/video/video';
+@import '../../components/pageTitle/pageTitle';
+@import '../../components/list/list';
+
+// Pages
+@import 'pages/home';
+@import 'pages/cases';

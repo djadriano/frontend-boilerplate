@@ -1,0 +1,94 @@
+{
+  "data": {
+    "name": "Mastercard - NaoTemPreco",
+    "company": "R/GA",
+    "year": "2012",
+    "content": [
+      {
+        "type": "text",
+        "content": [
+          "The MasterCard Brasil - Não Tem Preço is a platform with promotions that are offered to MasterCard card holders. I have had a small participation on the project's structuring the frontend using AngularJS and on the main grid design."
+        ]
+      },
+      {
+        "type": "image",
+        "default": {
+          "src": "agora/image-01-mobile.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "agora/image-01-desktop.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": "Stack:",
+        "items": [
+          "Angular 1",
+          "Ruby on Rails",
+          "Sass"
+        ]
+      },
+      {
+        "type": "image",
+        "default": {
+          "src": "agora/image-02-mobile.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "agora/image-02-desktop.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "default": {
+          "src": "agora/image-03-mobile.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "agora/image-03-desktop.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "default": {
+          "src": "agora/image-04-mobile.jpg",
+          "alt": ""
+        },
+        "sizes": [
+          {
+            "media": "min-width: 1024px",
+            "src": "agora/image-04-desktop.jpg",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/embed/g7nKpR_gnB4"
+      }
+    ],
+    "meta": {
+      "description": "My Personal Portfolio",
+      "keywords": "portfolio, website",
+      "title": "AKF - Àgora Investimentos",
+      "url": "http://akf.me",
+      "image": "",
+      "site_name": "AKF - Àgora Investimentos",
+      "type": "website",
+      "theme_color": "#000000"
+    }
+  }
+}
